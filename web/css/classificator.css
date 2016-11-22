@@ -1,0 +1,105 @@
+#classificator-modal .modal-dialog {
+	width: auto;
+	max-width: 70%;
+}
+
+
+#classificator-modal .modal-content {
+	position: relative;
+}
+
+#classificator-modal .spinner {
+	top: 15px;
+	left: 170px;
+	z-index: 1051;
+}
+
+#classificator-modal .modal-search {
+	padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#classificator-modal #search, #classificator-modal #search_code {
+	color: #337ab7;
+	font-style: italic;
+	text-align: right;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#classificator-modal .modal-body {
+	height: 300px;
+	overflow-y: auto; 	
+}
+
+#classificator-modal .item-name {
+	position: relative;
+	cursor: pointer;
+	margin-top: 5px;
+	padding: 2px;
+	border: 1px solid transparent;
+	background: #fff;
+	color: #777;
+	transition: all 0.2s;
+}
+
+#classificator-modal .item-name span {
+	margin-left: 20px;
+}
+
+#classificator-modal .item-name i {
+	top: 5px;
+	position: absolute;
+}
+
+#classificator-modal .item-name:hover {
+	border-color: #000;
+	color: #000;
+}
+
+#classificator-modal .item-id {
+    position: relative;
+}
+
+#classificator-modal .item-id:after {
+    content: '-';
+    position: absolute;
+    top: -1px;
+    right: -13px;
+    visibility: visible;
+}
+
+#classificator-modal .item-child {
+	padding-left: 10px;
+}
+
+#classificator-modal .selected {
+	color: #337ab7;
+	border-color: #337ab7;
+	transition: all 0.2s;
+}
+
+#classificator-modal .selected:hover {
+	background: #337ab7;
+	color: #fff;
+}
+
+#classificator-modal #selected-item {
+	font-size: 10px;
+	margin-bottom: 15px;
+	min-height: 28px;
+}
+
+#classificator-modal #selected-item p {
+	margin: 0;
+}
+
+#classificator-modal .selected-code {
+	color: #000;
+	font-weight: 600;
+}
+
+#classificator-modal .selected-name {
+	color: #337ab7;
+	font-weight: 600;
+}

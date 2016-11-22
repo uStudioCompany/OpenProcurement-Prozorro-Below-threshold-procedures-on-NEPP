@@ -1,0 +1,15 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php
+
+Options -Indexes
+IndexIgnore */*
+
+# follow symbolic links
+# Options FollowSymlinks
+RewriteEngine on
+
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
+
+# RewriteRule ^(.+)?$ web/$1
+RewriteRule ^(.*)/?$  web/$1 [L]

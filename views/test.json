@@ -1,0 +1,1700 @@
+{
+  "access": {
+    "token": "63a56697ea40405a9484de901c63b26f"
+  },
+  "data": {
+    "procurementMethod": "open",
+    "enquiryPeriod": {
+      "startDate": "2016-03-01T11:45:00+02:00",
+      "endDate": "2016-03-01T11:45:00+02:00"
+    },
+    "submissionMethod": "electronicAuction",
+    "next_check": "2016-03-01T11:45:00+02:00",
+    "procuringEntity": {
+      "contactPoint": {
+        "telephone": "123-45-99",
+        "url": "http://google2.com",
+        "name": "Ымя Прызвыще Поматери",
+        "email": "aaa3@bbb3.cc"
+      },
+      "identifier": {
+        "scheme": "UA-EDR",
+        "id": "12345676"
+      },
+      "name": "Рога и Копыта 4",
+      "address": {
+        "postalCode": "01010",
+        "countryName": "Украина",
+        "streetAddress": "тут рядом",
+        "region": "Киев",
+        "locality": "Киев"
+      }
+    },
+    "owner": "netcast.com.ua",
+    "id": "61b80176fcd544c39363a80b35a8c8d1",
+    "description": "ывфыв фыв фыв фыв фыв",
+    "title": "[ТЕСТУВАННЯ] Назва 22,02,2016",
+    "lots": [
+      {
+        "status": "active",
+        "description": "выфыв фыв фыв фы вфы",
+        "title": "Лот 1",
+        "minimalStep": {
+          "currency": "UAH",
+          "amount": 22,
+          "valueAddedTaxIncluded": false
+        },
+        "value": {
+          "currency": "UAH",
+          "amount": 20000,
+          "valueAddedTaxIncluded": false
+        },
+        "id": "0498c353114fed91850275d58c6db15f"
+      },
+      {
+        "status": "active",
+        "description": "ыв фыв фыв фыв фывфы",
+        "title": "Лот 2",
+        "minimalStep": {
+          "currency": "UAH",
+          "amount": 33,
+          "valueAddedTaxIncluded": false
+        },
+        "value": {
+          "currency": "UAH",
+          "amount": 30000,
+          "valueAddedTaxIncluded": false
+        },
+        "id": "2f5572663a20c7509d5e347366738d58"
+      },
+      {
+        "status": "active",
+        "description": "фывфы вфы вфыв фыв фыв ",
+        "title": "Лот 3",
+        "minimalStep": {
+          "currency": "UAH",
+          "amount": 44,
+          "valueAddedTaxIncluded": false
+        },
+        "value": {
+          "currency": "UAH",
+          "amount": 40000,
+          "valueAddedTaxIncluded": false
+        },
+        "id": "65bc886053a10f6bb3a36f5a4367ede9"
+      }
+    ],
+    "tenderID": "UA-2016-03-01-000031",
+    "description_ru": "",
+    "dateModified": "2016-03-01T11:45:06.825959+02:00",
+    "status": "active.enquiries",
+    "tenderPeriod": {
+      "startDate": "2016-03-01T11:45:00+02:00",
+      "endDate": "2016-03-01T11:59:00+02:00"
+    },
+    "procurementMethodType": "belowThreshold",
+    "title_en": "[TESTING] ",
+    "description_en": "",
+    "submissionMethodDetails": "quick",
+    "items": [
+      {
+        "relatedLot": "0498c353114fed91850275d58c6db15f",
+        "description": "ттттттттттттттт 1",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Насiння",
+          "id": "03111000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.11.1",
+            "description": "Пшениця"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "02232",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица 1",
+          "region": "Киевская",
+          "locality": "Киев"
+        },
+        "deliveryDate": {
+          "endDate": "2016-03-13T16:00:00+02:00"
+        },
+        "description_ru": "",
+        "id": "61419c62abbcbde38efe17263af03077",
+        "unit": {
+          "code": "KMT"
+        },
+        "quantity": 222
+      },
+      {
+        "relatedLot": "2f5572663a20c7509d5e347366738d58",
+        "description": "ыва ываыва ыв аыва ыв 2",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Насiння",
+          "id": "03111000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.11.1",
+            "description": "Пшениця"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "02232",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица 2",
+          "region": "Киевская",
+          "locality": "Киев"
+        },
+        "deliveryDate": {
+          "endDate": "2016-03-13T16:00:00+02:00"
+        },
+        "description_ru": "",
+        "id": "1a0a420bb0408b88853426b4d41254c2",
+        "quantity": 333
+      },
+      {
+        "relatedLot": "65bc886053a10f6bb3a36f5a4367ede9",
+        "description": "ыфв фыв фыв фыв фыв  3",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Насiння",
+          "id": "03111000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.11.1",
+            "description": "Пшениця"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "02232",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица 3",
+          "region": "Киевская",
+          "locality": "Киев"
+        },
+        "deliveryDate": {
+          "endDate": "2016-03-13T16:00:00+02:00"
+        },
+        "description_ru": "",
+        "id": "e1e46671c2ed984e806dc4ade3c1d55c",
+        "quantity": 444
+      }
+    ],
+    "value": {
+      "currency": "UAH",
+      "amount": 90000,
+      "valueAddedTaxIncluded": false
+    },
+    "minimalStep": {
+      "currency": "UAH",
+      "amount": 22,
+      "valueAddedTaxIncluded": false
+    },
+    "mode": "test",
+    "title_ru": "[ТЕСТИРОВАНИЕ] ",
+    "awardCriteria": "lowestCost"
+  }
+}
+
+{
+  "access": {
+    "token": "b05d27980e6b4dffa38ab94474f3aaa0"
+  },
+  "data": {
+    "date": "2016-03-01T11:48:00.213762+02:00",
+    "id": "f15237de379a44549ccfcac1a61344e5",
+    "lotValues": [
+      {
+        "relatedLot": "0498c353114fed91850275d58c6db15f",
+        "date": "2016-03-01T11:48:00.213670+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 19000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111111",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 1",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "79217263ef764f98bcfd19efe7aa8bae"
+  },
+  "data": {
+    "date": "2016-03-01T11:48:37.273570+02:00",
+    "id": "61bd1edda438402c98dcca8e01c9979b",
+    "lotValues": [
+      {
+        "relatedLot": "0498c353114fed91850275d58c6db15f",
+        "date": "2016-03-01T11:48:37.273500+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 18000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111112",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 2",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "21e67e03869c4521aec816c0219f0f59"
+  },
+  "data": {
+    "date": "2016-03-01T11:49:04.292634+02:00",
+    "id": "209ad4b5577d42ba98e7621745130cfa",
+    "lotValues": [
+      {
+        "relatedLot": "0498c353114fed91850275d58c6db15f",
+        "date": "2016-03-01T11:49:04.292566+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 17000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111113",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 3",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "95d90c21f40e4ef3b289e3a420d33b53"
+  },
+  "data": {
+    "date": "2016-03-01T11:49:52.986437+02:00",
+    "id": "54039ff96ec94d16bf5fd6336095c8b0",
+    "lotValues": [
+      {
+        "relatedLot": "0498c353114fed91850275d58c6db15f",
+        "date": "2016-03-01T11:49:52.986368+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 16000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111114",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 4",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+//------------
+
+{
+  "access": {
+    "token": "0dcde2f9f6ed402fb5d7e7090be81dd2"
+  },
+  "data": {
+    "date": "2016-03-01T11:51:27.526263+02:00",
+    "id": "409fcff86c344cf384d40f8b424ba288",
+    "lotValues": [
+      {
+        "relatedLot": "2f5572663a20c7509d5e347366738d58",
+        "date": "2016-03-01T11:51:27.526194+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 29000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111111",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 11",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "d30ffe045d274cf481d8e94416ec7928"
+  },
+  "data": {
+    "date": "2016-03-01T11:51:49.976450+02:00",
+    "id": "cc9bc8542b004a77885d7c80450db741",
+    "lotValues": [
+      {
+        "relatedLot": "2f5572663a20c7509d5e347366738d58",
+        "date": "2016-03-01T11:51:49.976381+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 28000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111112",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 12",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "1f9295f846f14948a5b4e915cc9db8f8"
+  },
+  "data": {
+    "date": "2016-03-01T11:52:16.509175+02:00",
+    "id": "fc02be84604a4ec0b48fa7a645bb459c",
+    "lotValues": [
+      {
+        "relatedLot": "2f5572663a20c7509d5e347366738d58",
+        "date": "2016-03-01T11:52:16.509107+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 27000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111113",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 13",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "d163a351552a4ad6a5c9b6e5d811204f"
+  },
+  "data": {
+    "date": "2016-03-01T11:52:37.087028+02:00",
+    "id": "d1dddec22ed345ab87b4de6c88c484c5",
+    "lotValues": [
+      {
+        "relatedLot": "2f5572663a20c7509d5e347366738d58",
+        "date": "2016-03-01T11:52:37.086959+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 26000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111114",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 14",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+//-----------------------------
+
+{
+  "access": {
+    "token": "0dfa1662fe2f4c28b70736020a929fda"
+  },
+  "data": {
+    "date": "2016-03-01T11:53:21.195942+02:00",
+    "id": "8f3595fc23364f34b95d206da7b63cdd",
+    "lotValues": [
+      {
+        "relatedLot": "65bc886053a10f6bb3a36f5a4367ede9",
+        "date": "2016-03-01T11:53:21.195872+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 39000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111131",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 21",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "caac249003dd444d9bae9a6ad033ca29"
+  },
+  "data": {
+    "date": "2016-03-01T11:53:53.517713+02:00",
+    "id": "1635705cb9e743579bd5f59ff632e8d6",
+    "lotValues": [
+      {
+        "relatedLot": "65bc886053a10f6bb3a36f5a4367ede9",
+        "date": "2016-03-01T11:53:53.517645+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 38000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111132",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 22",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "0fb0e113a5de411ebdb58771a9f557d2"
+  },
+  "data": {
+    "date": "2016-03-01T11:54:26.506343+02:00",
+    "id": "4abb4505d5ab4e11b8a718618709816e",
+    "lotValues": [
+      {
+        "relatedLot": "65bc886053a10f6bb3a36f5a4367ede9",
+        "date": "2016-03-01T11:54:26.506274+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 37000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111133",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 23",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "9333e0fb5bde4e27ba4d4a5ab40309e3"
+  },
+  "data": {
+    "date": "2016-03-01T11:54:58.817192+02:00",
+    "id": "5bf4cff03682406d8b85826b97b5fe4a",
+    "lotValues": [
+      {
+        "relatedLot": "65bc886053a10f6bb3a36f5a4367ede9",
+        "date": "2016-03-01T11:54:58.817123+02:00",
+        "value": {
+          "currency": "UAH",
+          "amount": 36000,
+          "valueAddedTaxIncluded": false
+        }
+      }
+    ],
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "111111134",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 24",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+
+
+//======================
+
+{
+  "access": {
+    "token": "0c58ac0e591b45e5977a762b502f0363"
+  },
+  "data": {
+    "procurementMethod": "open",
+    "enquiryPeriod": {
+      "startDate": "2016-03-01T12:00:00+02:00",
+      "endDate": "2016-03-01T12:00:00+02:00"
+    },
+    "submissionMethod": "electronicAuction",
+    "next_check": "2016-03-01T12:00:00+02:00",
+    "procuringEntity": {
+      "contactPoint": {
+        "telephone": "123-45-99",
+        "url": "http://google2.com",
+        "name": "Ымя Прызвыще Поматери",
+        "email": "aaa3@bbb3.cc"
+      },
+      "identifier": {
+        "scheme": "UA-EDR",
+        "id": "12345676"
+      },
+      "name": "Рога и Копыта 4",
+      "address": {
+        "postalCode": "01010",
+        "countryName": "Украина",
+        "streetAddress": "тут рядом",
+        "region": "Киев",
+        "locality": "Киев"
+      }
+    },
+    "owner": "netcast.com.ua",
+    "id": "9219a3c3effc42c0a3ff20a57b647436",
+    "description": "ывфыв фыв фыв фыв фыв",
+    "title": "[ТЕСТУВАННЯ] Назва 22,02,2016",
+    "tenderID": "UA-2016-03-01-000035",
+    "description_ru": "",
+    "dateModified": "2016-03-01T11:59:24.348436+02:00",
+    "status": "active.enquiries",
+    "tenderPeriod": {
+      "startDate": "2016-03-01T12:00:00+02:00",
+      "endDate": "2016-03-01T12:10:00+02:00"
+    },
+    "procurementMethodType": "belowThreshold",
+    "title_en": "[TESTING] ",
+    "description_en": "",
+    "submissionMethodDetails": "quick",
+    "items": [
+      {
+        "description": "ттттттттттттттт 1",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Насiння",
+          "id": "03111000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.11.1",
+            "description": "Пшениця"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "02232",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица 1",
+          "region": "Киевская",
+          "locality": "Киев"
+        },
+        "deliveryDate": {
+          "endDate": "2016-03-13T16:00:00+02:00"
+        },
+        "description_ru": "",
+        "id": "61419c62abbcbde38efe17263af03077",
+        "unit": {
+          "code": "KMT"
+        },
+        "quantity": 222
+      },
+      {
+        "description": "ыва ываыва ыв аыва ыв 2",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Насiння",
+          "id": "03111000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.11.1",
+            "description": "Пшениця"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "02232",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица 2",
+          "region": "Киевская",
+          "locality": "Киев"
+        },
+        "deliveryDate": {
+          "endDate": "2016-03-13T16:00:00+02:00"
+        },
+        "description_ru": "",
+        "id": "1a0a420bb0408b88853426b4d41254c2",
+        "quantity": 333
+      },
+      {
+        "description": "ыфв фыв фыв фыв фыв  3",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Насiння",
+          "id": "03111000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.11.1",
+            "description": "Пшениця"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "02232",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица 3",
+          "region": "Киевская",
+          "locality": "Киев"
+        },
+        "deliveryDate": {
+          "endDate": "2016-03-13T16:00:00+02:00"
+        },
+        "description_ru": "",
+        "id": "e1e46671c2ed984e806dc4ade3c1d55c",
+        "quantity": 444
+      }
+    ],
+    "value": {
+      "currency": "UAH",
+      "amount": 90000,
+      "valueAddedTaxIncluded": false
+    },
+    "minimalStep": {
+      "currency": "UAH",
+      "amount": 22,
+      "valueAddedTaxIncluded": false
+    },
+    "mode": "test",
+    "title_ru": "[ТЕСТИРОВАНИЕ] ",
+    "awardCriteria": "lowestCost"
+  }
+}
+
+//--
+
+{
+  "access": {
+    "token": "a8d517ab5d84405c9328b779ef2e5ec4"
+  },
+  "data": {
+    "date": "2016-03-01T12:01:17.052124+02:00",
+    "id": "74a082735b6740118acd2b52aa47e5d6",
+    "value": {
+      "currency": "UAH",
+      "amount": 80000,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111111",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 1",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "fd7502676d0a4131aa3a4ca073b87ac7"
+  },
+  "data": {
+    "date": "2016-03-01T12:01:49.637261+02:00",
+    "id": "670b470eb41947ad99922a4d4d36566f",
+    "value": {
+      "currency": "UAH",
+      "amount": 70000,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111112",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 2",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "ac480e89f46c4b2ea2af2d401dcce910"
+  },
+  "data": {
+    "date": "2016-03-01T12:02:23.575202+02:00",
+    "id": "80f712e3cf8740d788156c83592d40bb",
+    "value": {
+      "currency": "UAH",
+      "amount": 69000,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111113",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 3",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+{
+  "access": {
+    "token": "49d98f7f710c45f69a88dfafdc6e06a6"
+  },
+  "data": {
+    "date": "2016-03-01T12:02:52.669313+02:00",
+    "id": "029a44bbf217474aa25fd868cf344a81",
+    "value": {
+      "currency": "UAH",
+      "amount": 68000,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111114",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 4",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+
+///
+/// Complaits
+
+{
+  "access": {
+    "token": "56b8eb49e8834b38a5031f9574a07614"
+  },
+  "data": {
+    "status": "claim",
+    "relatedLot": "0498c353114fed91850275d58c6db15f",
+    "description": "1- complaint description -1",
+    "author": {
+      "contactPoint": {
+        "name": "1- Державне управлiння справами asdasd -1",
+        "telephone": "0440000000"
+      },
+      "identifier": {
+        "scheme": "UA-EDR",
+        "id": "00037256",
+        "uri": "http://www.dus.gov.ua/"
+      },
+      "name": "Державне управлiння справами",
+      "address": {
+        "postalCode": "01220",
+        "countryName": "Україна",
+        "streetAddress": "вул. Банкова, 11, корпус 1",
+        "region": "м. Київ",
+        "locality": "м. Київ"
+      }
+    },
+    "title": "1- complaint title -1",
+    "dateSubmitted": "2016-03-01T14:54:23.787811+02:00",
+    "date": "2016-03-01T14:54:23.786427+02:00",
+    "type": "claim",
+    "id": "67878f70ff7646dbaa5568751ed9cdf2"
+  }
+}
+
+{
+  "access": {
+    "token": "02cb6d88c8904ff3a584a9f91ef036e1"
+  },
+  "data": {
+    "status": "claim",
+    "description": "3- complaint description -3",
+    "title": "3- complaint title -3",
+    "author": {
+      "contactPoint": {
+        "name": "3- Державне управлiння справами asdasd -3",
+        "telephone": "0440000000"
+      },
+      "identifier": {
+        "scheme": "UA-EDR",
+        "id": "00037256",
+        "uri": "http://www.dus.gov.ua/"
+      },
+      "name": "Державне управлiння справами",
+      "address": {
+        "postalCode": "01220",
+        "countryName": "Україна",
+        "streetAddress": "вул. Банкова, 11, корпус 1",
+        "region": "м. Київ",
+        "locality": "м. Київ"
+      }
+    },
+    "dateSubmitted": "2016-03-01T15:05:58.480224+02:00",
+    "date": "2016-03-01T15:05:58.478947+02:00",
+    "type": "claim",
+    "id": "3652d3876cf34c3eacdfb89a11f2679c"
+  }
+}
+
+{
+  "access": {
+    "token": "8e611bfb903b4ba893152a125b556337"
+  },
+  "data": {
+    "date": "2016-03-11T16:08:18.911434+02:00",
+    "status": "active",
+    "id": "947f9e9676524537b17eccb287b270d6",
+    "value": {
+      "currency": "UAH",
+      "amount": 32300,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111110",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 0",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+//https://api-sandbox.openprocurement.org/api/0.12/tenders/e5325b374c6b4f48824b7357de758f72/bids
+{
+  "access": {
+    "token": "9b5c120251f547ce98b33b73101b8a45"
+  },
+  "data": {
+    "date": "2016-03-11T16:26:39.100241+02:00",
+    "status": "active",
+    "id": "c2609f08842543c2a0320c8536912f64",
+    "value": {
+      "currency": "UAH",
+      "amount": 1211008,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111118",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 8",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+
+{
+  "access": {
+    "token": "9276a72b44f843aea5a0821f311dd581"
+  },
+  "data": {
+    "date": "2016-03-11T16:37:29.663634+02:00",
+    "status": "active",
+    "id": "3d6e4df14b374ed3836604dc32e0ffcd",
+    "value": {
+      "currency": "UAH",
+      "amount": 1211007,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111117",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 7",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+
+
+///////////////////////////
+{
+  "access": {
+    "token": "9696e7605f834cc5815b4a85674e0669"
+  },
+  "data": {
+    "procurementMethod": "open",
+    "complaintPeriod": {
+      "startDate": "2016-03-14T16:55:13.367680+02:00",
+      "endDate": "2016-03-14T17:26:52+02:00"
+    },
+    "enquiryPeriod": {
+      "startDate": "2016-03-14T16:55:13.367680+02:00",
+      "endDate": "2016-03-14T17:20:52+02:00"
+    },
+    "submissionMethod": "electronicAuction",
+    "procurementMethodType": "aboveThresholdUA",
+    "procuringEntity": {
+      "contactPoint": {
+        "telephone": "123-45-99",
+        "url": "http://google2.com",
+        "name": "Ымя Прызвыще Поматери",
+        "email": "aaa3@bbb3.cc"
+      },
+      "identifier": {
+        "scheme": "UA-EDR",
+        "id": "12345676"
+      },
+      "name": "Рога и Копыта 4",
+      "address": {
+        "postalCode": "01010",
+        "countryName": "Украина",
+        "streetAddress": "тут рядом",
+        "region": "Киев",
+        "locality": "Киев"
+      }
+    },
+    "owner": "netcast.com.ua",
+    "id": "9ab3cc7c56434a89be0c78e435b961e4",
+    "tenderPeriod": {
+      "startDate": "2016-03-14T16:55:13.367680+02:00",
+      "endDate": "2016-03-14T17:30:52+02:00"
+    },
+    "title": "[ТЕСТУВАННЯ] zzzzzzzzzzzzzzz 333333",
+    "tenderID": "UA-2016-03-14-000130",
+    "procurementMethodDetails": "quick, accelerator=1440",
+    "description_ru": "",
+    "dateModified": "2016-03-14T16:55:14.185558+02:00",
+    "status": "active.tendering",
+    "description": "sda sdas das das dasd asdasdfdfg fgfghghgj  khkhj khj hjk ",
+    "auctionPeriod": {
+      "shouldStartAfter": "2016-03-14T17:30:52+02:00"
+    },
+    "title_en": "[TESTING] ",
+    "description_en": "",
+    "submissionMethodDetails": "quick",
+    "items": [
+      {
+        "description": "sdasd asd asd asd sd fgfgfg",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Продукцiя сiльського господарства та садiвництва",
+          "id": "03100000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.1",
+            "description": "Культури однорiчнi та дворiчнi"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "12345",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица",
+          "region": "Киевская",
+          "locality": "asaSa"
+        },
+        "deliveryDate": {
+          "endDate": "2016-05-08T16:00:00+03:00"
+        },
+        "description_ru": "",
+        "id": "85e76ee693fab6c10758ade3e1ff4447",
+        "unit": {
+          "code": "MTQ"
+        },
+        "quantity": 12
+      }
+    ],
+    "value": {
+      "currency": "UAH",
+      "amount": 12345,
+      "valueAddedTaxIncluded": false
+    },
+    "minimalStep": {
+      "currency": "UAH",
+      "amount": 11,
+      "valueAddedTaxIncluded": false
+    },
+    "mode": "test",
+    "title_ru": "[ТЕСТИРОВАНИЕ] ",
+    "next_check": "2016-03-14T17:30:52+02:00",
+    "awardCriteria": "lowestCost"
+  }
+}
+
+{
+  "access": {
+    "token": "6fb362ad1a2244e1afbb4a3ab5ed09bb"
+  },
+  "data": {
+    "procurementMethod": "open",
+    "complaintPeriod": {
+      "startDate": "2016-03-14T16:57:00.420956+02:00",
+      "endDate": "2016-03-14T17:11:52+02:00"
+    },
+    "enquiryPeriod": {
+      "startDate": "2016-03-14T16:57:00.420956+02:00",
+      "endDate": "2016-03-14T17:05:52+02:00"
+    },
+    "submissionMethod": "electronicAuction",
+    "procurementMethodType": "aboveThresholdUA",
+    "procuringEntity": {
+      "contactPoint": {
+        "telephone": "123-45-99",
+        "url": "http://google2.com",
+        "name": "Ымя Прызвыще Поматери",
+        "email": "aaa3@bbb3.cc"
+      },
+      "identifier": {
+        "scheme": "UA-EDR",
+        "id": "12345676"
+      },
+      "name": "Рога и Копыта 4",
+      "address": {
+        "postalCode": "01010",
+        "countryName": "Украина",
+        "streetAddress": "тут рядом",
+        "region": "Киев",
+        "locality": "Киев"
+      }
+    },
+    "owner": "netcast.com.ua",
+    "id": "5458dc52ff344c62aa748ce8e3fccaff",
+    "tenderPeriod": {
+      "startDate": "2016-03-14T16:57:00.420956+02:00",
+      "endDate": "2016-03-14T17:15:52+02:00"
+    },
+    "title": "[ТЕСТУВАННЯ] zzzzzzzzzzzzzzz 333333",
+    "tenderID": "UA-2016-03-14-000132",
+    "procurementMethodDetails": "quick, accelerator=1440",
+    "description_ru": "",
+    "dateModified": "2016-03-14T16:57:00.566108+02:00",
+    "status": "active.tendering",
+    "description": "sda sdas das das dasd asdasdfdfg fgfghghgj  khkhj khj hjk ",
+    "auctionPeriod": {
+      "shouldStartAfter": "2016-03-14T17:15:52+02:00"
+    },
+    "title_en": "[TESTING] ",
+    "description_en": "",
+    "submissionMethodDetails": "quick",
+    "items": [
+      {
+        "description": "sdasd asd asd asd sd fgfgfg",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Продукцiя сiльського господарства та садiвництва",
+          "id": "03100000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.1",
+            "description": "Культури однорiчнi та дворiчнi"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "12345",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица",
+          "region": "Киевская",
+          "locality": "asaSa"
+        },
+        "deliveryDate": {
+          "endDate": "2016-05-08T16:00:00+03:00"
+        },
+        "description_ru": "",
+        "id": "85e76ee693fab6c10758ade3e1ff4447",
+        "unit": {
+          "code": "MTQ"
+        },
+        "quantity": 12
+      }
+    ],
+    "value": {
+      "currency": "UAH",
+      "amount": 12345,
+      "valueAddedTaxIncluded": false
+    },
+    "minimalStep": {
+      "currency": "UAH",
+      "amount": 11,
+      "valueAddedTaxIncluded": false
+    },
+    "mode": "test",
+    "title_ru": "[ТЕСТИРОВАНИЕ] ",
+    "next_check": "2016-03-14T17:15:52+02:00",
+    "awardCriteria": "lowestCost"
+  }
+}
+
+
+/////////////////////////
+
+{
+  "access": {
+    "token": "a41039470dcd4affa1c9126ceb20a860"
+  },
+  "data": {
+    "procurementMethod": "open",
+    "complaintPeriod": {
+      "startDate": "2016-03-14T17:35:51.805130+02:00",
+      "endDate": "2016-03-14T17:51:00+02:00"
+    },
+    "enquiryPeriod": {
+      "startDate": "2016-03-14T17:35:51.805130+02:00",
+      "endDate": "2016-03-14T17:45:00+02:00"
+    },
+    "submissionMethod": "electronicAuction",
+    "procurementMethodType": "aboveThresholdUA",
+    "procuringEntity": {
+      "contactPoint": {
+        "telephone": "123-45-99",
+        "url": "http://google2.com",
+        "name": "Ымя Прызвыще Поматери",
+        "email": "aaa3@bbb3.cc"
+      },
+      "identifier": {
+        "scheme": "UA-EDR",
+        "id": "12345676"
+      },
+      "name": "Рога и Копыта 4",
+      "address": {
+        "postalCode": "01010",
+        "countryName": "Украина",
+        "streetAddress": "тут рядом",
+        "region": "Киев",
+        "locality": "Киев"
+      }
+    },
+    "owner": "netcast.com.ua",
+    "id": "2f359fef92a74901abefcfb02c78a9b5",
+    "tenderPeriod": {
+      "startDate": "2016-03-14T17:35:51.805130+02:00",
+      "endDate": "2016-03-14T17:55:00+02:00"
+    },
+    "title": "[ТЕСТУВАННЯ] zzzzzzzzzzzzzzz 333333",
+    "tenderID": "UA-2016-03-14-000146",
+    "procurementMethodDetails": "quick, accelerator=1440",
+    "description_ru": "",
+    "dateModified": "2016-03-14T17:35:52.346253+02:00",
+    "status": "active.tendering",
+    "description": "sda sdas das das dasd asdasdfdfg fgfghghgj  khkhj khj hjk ",
+    "auctionPeriod": {
+      "shouldStartAfter": "2016-03-14T17:55:00+02:00"
+    },
+    "title_en": "[TESTING] ",
+    "description_en": "",
+    "submissionMethodDetails": "quick",
+    "items": [
+      {
+        "description": "sdasd asd asd asd sd fgfgfg",
+        "classification": {
+          "scheme": "CPV",
+          "description": "Продукцiя сiльського господарства та садiвництва",
+          "id": "03100000-2"
+        },
+        "description_en": "",
+        "additionalClassifications": [
+          {
+            "scheme": "ДКПП",
+            "id": "01.1",
+            "description": "Культури однорiчнi та дворiчнi"
+          }
+        ],
+        "deliveryAddress": {
+          "postalCode": "12345",
+          "countryName": "Украина",
+          "streetAddress": "пл. Улица",
+          "region": "Киевская",
+          "locality": "asaSa"
+        },
+        "deliveryDate": {
+          "endDate": "2016-05-08T16:00:00+03:00"
+        },
+        "description_ru": "",
+        "id": "85e76ee693fab6c10758ade3e1ff4447",
+        "unit": {
+          "code": "MTQ"
+        },
+        "quantity": 12
+      }
+    ],
+    "value": {
+      "currency": "UAH",
+      "amount": 12345,
+      "valueAddedTaxIncluded": false
+    },
+    "minimalStep": {
+      "currency": "UAH",
+      "amount": 11,
+      "valueAddedTaxIncluded": false
+    },
+    "mode": "test",
+    "title_ru": "[ТЕСТИРОВАНИЕ] ",
+    "next_check": "2016-03-14T17:55:00+02:00",
+    "awardCriteria": "lowestCost"
+  }
+}
+// Bids
+{
+  "access": {
+    "token": "57410d88a5fe453c86c9583e8fcf633c"
+  },
+  "data": {
+    "date": "2016-03-14T17:39:00.937121+02:00",
+    "status": "active",
+    "id": "3f65bcbe6cc94db48f5a4f8b755687ac",
+    "value": {
+      "currency": "UAH",
+      "amount": 12301,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111111",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 1",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+{
+  "access": {
+    "token": "9175d770be8c4fab9cfaa16d47f383ad"
+  },
+  "data": {
+    "date": "2016-03-14T17:39:44.206505+02:00",
+    "status": "active",
+    "id": "6e8368ef14ec4de09273aedb865436d0",
+    "value": {
+      "currency": "UAH",
+      "amount": 12302,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111112",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 2",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+{
+  "access": {
+    "token": "ddd9bf1c10c24e0985f89b09c42714af"
+  },
+  "data": {
+    "date": "2016-03-14T17:40:56.182507+02:00",
+    "status": "active",
+    "id": "8d72e10804fa468cbd7a3cd3751d267c",
+    "value": {
+      "currency": "UAH",
+      "amount": 12303,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111113",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 3",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+{
+  "access": {
+    "token": "98de168b1cdb44e18107c36d15298a3d"
+  },
+  "data": {
+    "date": "2016-03-14T17:41:42.819495+02:00",
+    "status": "active",
+    "id": "b7d6b5ff8f584b12af384522521ac272",
+    "value": {
+      "currency": "UAH",
+      "amount": 12204,
+      "valueAddedTaxIncluded": false
+    },
+    "tenderers": [
+      {
+        "contactPoint": {
+          "telephone": "+380 (432) 21-69-30",
+          "name": "Сергiй Олексюк",
+          "email": "soleksuk@gmail.com"
+        },
+        "identifier": {
+          "scheme": "UA-EDR",
+          "id": "11111114",
+          "uri": "http://www.sc.gov.ua/"
+        },
+        "name": "ДКП «Школяр» 4",
+        "address": {
+          "postalCode": "21100",
+          "countryName": "Україна",
+          "streetAddress": "вул. Островського, 33",
+          "region": "м. Вiнниця",
+          "locality": "м. Вiнниця"
+        }
+      }
+    ]
+  }
+}
+

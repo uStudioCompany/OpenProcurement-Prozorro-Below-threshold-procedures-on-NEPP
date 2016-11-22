@@ -1,0 +1,82 @@
+<table cellpadding="0" cellspacing="0" border="0" style="margin-top: -10px;">
+	<tbody>
+		<tr>
+			<td style="width:170px;" class="b">Отримувач платежу</td>
+			<td>
+				<p class="full"><span class="b">ТОВ "Держзакупівлі.Онлайн"</span><br>
+					ЄДРПОУ: 39008321<br>
+					Київ, вул. Воздвиженська, 10 «Б», оф. 23, 04071<br>
+					р/р: 26008052738189<br>
+					МФО: 300711<br>
+					Банк: ПЕЧЕРСЬКА Ф.ПАТ КБ"ПРИВАТБАНК", М.КИЇВ<br>
+		        </p>
+		        <p class="full">Платник податку на прибуток підприємств на загальних підставах. <br>Платник ПДВ. ІПН: 390083226562</p>
+		        <br>
+			</td>
+		</tr>
+		<tr>
+            <td style="width:170px;" class="b">Учасник</td>
+            <td>
+                <p class="full">
+                    <span class="b">%s</span><br>
+                    ЄДРПОУ: %s<br>
+                    %s<br>
+					р/р: %s<br>
+					МФО: %s<br>
+					Банк: %s<br>
+					%s
+					%s
+                </p>
+                <br>
+            </td>
+        </tr>
+	</tbody>
+</table>
+<p class="full c b">Рахунок-фактура № <span var="docnum">%s</span><br>
+		від «<span var="cdate day">%d</span>» <span var="cdate month">%s</span> <span var="cdate year">%d</span> р.
+
+</p>
+<br>
+<table cellpadding="0" cellspacing="0" border="1">
+	<tbody>
+		<tr>
+			<td class="c b" style="width:30px;">№</td>
+			<td class="c b" style="width:250px;">Призначення платежу</td>
+			<td class="c b" style="width:30px;">Кількість</td>
+			<td class="c b">Ціна без ПДВ</td>
+			<td class="c b" style="width:130px;">Сума без ПДВ</td>
+		</tr>
+		<tr>
+			<td>1.</td>
+			<td style="padding-left: 5px">
+				<p class="full" choice="invoice tender_bids">%s<span var="docnum"></span></p>
+				<br>
+			</td>
+			<td class="c">1</td>
+			<td class="c"><span var="balance no tax">%s грн.</span></td>
+			<td class="c"><span var="balance no tax">%s грн.</span></td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left:355px;position:relative;top:-2px;">
+	<table cellpadding="0" cellspacing="0" border="1">
+		<tbody>
+			<tr>
+				<td class="b">Разом без ПДВ:</td>
+				<td class="c" style="width:130px;"><span var="balance no tax">%s грн.</span></td>
+			</tr>
+			<tr>
+				<td class="b">ПДВ:</td>
+				<td class="c b" var="balance tax">%s грн.</td>
+			</tr>
+			<tr>
+				<td class="b">Всього:</td>
+				<td class="c b"><span var="balance">%s грн.</span></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br>
+<p class="full">В призначенні платежу обов'язково вказати номер рахунку:<br><strong>%s<span var="docnum"></span></strong></p><br>
+<p class="full">Оплата зараховується тільки від зазначеного в цьому рахунку Учасника: <br><strong>%s<span var="docnum"></span></strong></p><br>
+<p class="full">Оплата по цьому рахунку не може бути проведена через каси банків для прийому платежів від фіз.осіб</p>

@@ -1,0 +1,27 @@
+{
+  "data": {
+    "rationaleTypes": [
+      "volumeCuts",
+      "itemPriceVariation",
+      "qualityImprovement",
+      "durationExtension"
+    ],
+    "rationale": "fvdfdfvdf444444444",
+    "contractNumber": "43334",
+    "period": {
+      "endDate": "2016-08-26T00:00:00+03:00"
+    }
+  }
+},
+
+{
+  "data": {
+    "period": {
+      "startDate": "2016-05-31T13:04:42.023541+03:00",
+      "endDate": "2016-06-30T13:04:42.023582+03:00"
+    },
+    "value": {
+      "amount": 438
+    }
+  }
+}

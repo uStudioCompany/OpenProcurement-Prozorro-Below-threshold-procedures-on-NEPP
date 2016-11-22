@@ -1,0 +1,511 @@
+.container{width:960px;}
+.container h1{color: #777; padding: 20px 0 10px 10px; text-transform: uppercase;}
+.container h2{background: #aaa;    color: #fff;    margin-left: -15px;    padding: 10px 0 10px 25px;    text-transform: uppercase;}
+.container .nav_block h2{background:none; padding:none; color:#FFF; font-size:18px;}
+.container h2+h3{color: #777; padding: 0px 0 10px 10px; font-size:24px;}
+.tender-preview #tender_cancellation .row{margin-left:-15px;}
+.tender-preview #tender_cancellation .cancel_item .row, .tender-preview #tender_cancellation .cancel_item .document_block{margin-left:0px;}	
+.tender-preview .jumbotron{margin-bottom:10px;}
+.tender-preview .info-block .row div:first-of-type{color:#7e7e7e;}
+.tender-preview .info-block .row.buttons{text-align:center; background:none; padding-top:25px !important; padding-left:0;}
+.tender-preview .info-block .row.buttons #e_sign_block{margin-top:20px;margin-left:-15px;}
+.tender-preview .info-block .row.buttons #e_sign_block .container{padding-right:0;}
+.tender-preview .info-block .row.buttons #e_sign_block .panel, .tender-preview .info-block .row.buttons #e_sign_block .panel-heading{border-radius:0;border:0;box-shadow:none;}
+.tender-preview .info-block .row.buttons #e_sign_block .panel-body{padding:0;}
+.tender-preview .info-block .row.buttons #e_sign_block .panel-body {margin-bottom:0;}
+
+.tender-preview .info-block .contact_group_wrapper .form-group{background: #fafafa;    margin-right: 0;  margin-bottom:0;  padding: 10px 0 10px 10px;}
+.tender-preview .info-block .contact_group_wrapper .control-label{color: #777;    font-weight: normal;    padding-left: 15px;    text-align: left;}
+.tender-preview .info-block .contact_group_wrapper .form-group > .col-md-6{width:66%; font-size:13px;}
+.tender-preview .info-block .contact_group_wrapper .form-group > .col-md-6 #changes-rationaletypes{padding-top: 10px;}
+.tender-preview #contracts .document_block+.uploadfile{float: right;    margin-right: 25px;    margin-top: 10px;}
+
+.tender-preview .info-block .contact_group_wrapper .form-group > .col-md-6 label {display:block; font-size:13px; color:#333;}
+.tender-preview.m_create-wrap,
+.tender-preview .info-block .cancellations_block{margin-left:-15px;}
+.tender-preview .info-block .cancellations_block .cancel_item .control-label{padding-left:25px;}
+.m_create-wrap .m_options .form-group, .m_create-wrap .m_info .form-group, .m_create-wrap .m_info .document_block, .tender-preview #add_award_form .info-block  .form-group{padding-left:10px;margin-bottom:10px;color: #777;    font-size: 11px;}
+.tender-preview #add_award_form > .form-group{margin-top:15px;}
+.tender-preview #tender_cancellation .cancel_item > .row .col-md-5 h4{display:none;}
+.tender-preview #add_award_form .info-block  .form-group{margin-bottom:0;}
+.tender-preview #add_award_form .form-group .col-md-offset-5{margin-left:0; width:100%; text-align:center;}
+.tender-preview #add_award_form .form-group .col-md-offset-5 .btn-submitform{background:#5cb85c; font-size: 14px;    font-weight: bold;    text-transform: uppercase;}
+.tender-preview #add_award_form .document_block .col-md-3 .control-label{margin-left:0;} 
+.tender-preview #add_award_form .document_block .col-md-6{padding-left: 15px;}
+.m_create-wrap .m_info .document_block .row{padding-left:0px;padding-right: 10px;}
+.m_create-wrap .m_info .document_block .row.file_wrap{margin-left:0;margin-right:0;padding-right: 15px;padding-left: 15px}
+.m_create-wrap .m_info .document_block .row.file_wrap .document_link .btn-group{display:none;}
+.m_create-wrap .m_info .document_block .row.file_wrap .document_link .btn-group+.btn-group{display:block;width:66.67%;}
+.m_create-wrap .m_info .document_block .row.file_wrap .row .col-md-3{margin-top:0;}
+.m_create-wrap .m_info .document_block .row.file_wrap .row .col-md-3.btn-group{padding-left:15px;margin-bottom: 10px;margin-top: 0;}
+.m_create-wrap .m_info .document_block .row.file_wrap .row .col-md-offset-3 {margin: 0; text-align:right;width:100%;}
+.wrap-questions .contract_file_block.form-group{background:#eee; margin: 20px 0 0 -15px;    padding: 20px 36px 20px 10px;min-height:75px;}
+.wrap-questions .contract_file_block .col-md-6{padding-right: 10px !important; width:100% !important;}
+.wrap-questions .contract_file_block .delete_file,
+.m_create-wrap .m_info .document_block .row.file_wrap .row .btn-group  .uploadfile_replace,
+.m_create-wrap .m_info .document_block .row.file_wrap .row .btn-group  .delete_file,
+.tender-preview.m_create-wrap  .features_block .feature .delete_feature_enum{background: #eee; color: #777;float: right;font-size: 13px;padding: 5px 10px; width: auto;}
+.m_upload_block_fix .contract_file_block .file_wrapper .delete_file,
+.m_upload_block_fix .questions .contract_file_block .file_wrapper .delete_file,
+.wrap-questions .questions form .contract_file_block .file_wrapper .delete_file{margin-left:auto; width:auto;margin-bottom:0;font-size: 13px;    font-weight: normal;text-transform: none; float:right;}
+.wrap-questions .questions form .contract_file_block .file_wrapper .delete_file{height:34px;}
+.wrap-questions .contract_file_block .delete_file,
+.m_create-wrap .m_info .document_block .row.file_wrap .row .btn-group  .delete_file,
+.m_tender-cancel .cancel_item .document_block .file_wrap .delete_file,
+.tender-preview.m_create-wrap .lot .features_block .feature .delete_feature_enum{background: #ff1b4b; color: #FFF; margin-right:2px;}
+.m_tender-cancel .info-block .cancel_item .document_block .delete_file{border:0; width:auto;float: right;    margin-left: 0;}
+
+.wrap-questions .contract_file_block .delete_file{font-weight: normal;    height: 32px;    margin-right: 0;}
+.tender-preview.m_create-wrap .features_block .feature .delete_feature_enum{border:0; background: #ff1b4b; color: #FFF; margin-right:2px;}
+.tender-preview.m_create-wrap+.col-md-offset-3, 
+.wrap-questions .field-question-questionof+.col-md-offset-3,
+.wrap-questions .contract_file_block+.col-md-offset-3{padding-top:20px; margin-left: 0; width:96.5%;min-height: 100px;}
+.tender-preview.m_create-wrap+.col-md-offset-3 .sign_btn{float: right; margin-right:20px}
+.tender-preview.m_create-wrap+.col-md-offset-3 .btn_submit_form, .wrap-questions .btn_submit_question{float:right;}
+.wrap-questions button.btn_submit_question{width:65%;}
+.tender-preview.m_create-wrap+.col-md-offset-3 label{position:absolute; width:45%;font-size:13px;}
+.tender-preview.m_create-wrap+.col-md-offset-3 label:after{content:"Увага, використання ЕЦП для підтвердження дій в допорогових закупівлях не є обов'язковим та не впливає на публікацію інформації в ЦБД."; font-size:11px; color:#777; display:block;font-weight: normal;}
+.tender-preview.m_create-wrap+.col-md-offset-3 button, .wrap-questions .btn_submit_question,
+.m_tender-cancel .info-block .col-md-9 button{font-size: 14px;  text-transform: uppercase;  font-weight: bold;}
+.m_tender-cancel .info-block .col-md-9 button{width:50%; ;margin-bottom:30px;}
+#sign_block .container{max-width:960px; padding-left: 10px;    padding-right: 25px;}
+#sign_block .container{border:0;}
+#sign_block .container{border-bottom: 0;padding-left: 25px;background: #eee; text-transform:uppercase; color: #777; margin-left: -10px; margin-right: -10px; margin-top: 0; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;    font-size: 20px;    font-weight: normal;}
+#sign_block .container{padding:15px 0; color:#777;font-size:13px;}
+.e_sign_block .container{max-width:930px; padding-left: 0;    padding-right:0;}
+.e_sign_block .container .panel-default{border:0;}
+.e_sign_block .container .panel-heading{border-bottom: 0; text-align:center; padding-left: 25px;background: #eee; text-transform:uppercase; color: #777; margin-left: 0; margin-right: 0; margin-top: 0; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;    font-size: 20px;    font-weight: normal;}
+.e_sign_block .container .panel-body .panel-heading{text-transform:none; font-size:13px; font-weight:bold;}
+.e_sign_block .container .panel-body{padding:0; color:#777;font-size:13px;}
+.e_sign_block .container .panel-body .row{padding:10px;margin:0;}
+#sign_block #signPanel{border:0;}
+#sign_block #signPanel #keyStatusPanel {border:0;}
+#sign_block #signPanel .panel-heading{padding:20px 0 10px 25px; background: none; font-size: 14px; text-transform: uppercase; font-weight: bold;}
+#sign_block #signPanel .panel-body >.row{padding-left:15px;}
+
+.wrap-questions .control-label{opacity:1; font-size:13px; color:#777;text-align:left;padding-left:25px;}
+.wrap-questions textarea.form-control{padding:10px;}
+.wrap-questions .jumbotron{padding:15px; margin-bottom:15px;}
+.wrap-questions .margin_b{margin-bottom:20px;}
+.wrap-questions .questions {margin-left:-15px;border-radius: 0;    padding: 20px 15px 10px;font-size:13px; clear:both;}
+.wrap-questions .questions >h4+b{display: block;    font-weight: normal !important;    margin-bottom: 10px;    padding: 15px 0;    text-align: center;    text-transform: uppercase; color:#777 !important; background:#eee;}
+.wrap-questions .questions .form-group .col-md-6{width:100% !important; padding-top:20px;}
+.wrap-questions .questions .form-group + .form-group .col-md-6{padding-top:0;}
+.wrap-questions .questions .form-group + .form-group {margin-bottom:0;}
+.wrap-questions .questions .form-group textarea{width:100%;}
+.wrap-questions .questions .row+h4{display:none;}
+.wrap-questions .questions h4{margin-top:0;}
+.wrap-questions .questions .answer{margin-left: -15px;  padding-top:30px;   margin-right: -15px; padding-left: 15px; width:100%;}
+.wrap-questions .questions .answer h4{text-transform:uppercase; color:#777; font-size:18px; font-weight:bold;}
+.wrap-questions .questions .answer+form label,
+.wrap-questions .questions form  label{border-top: 1px solid #ccc;    clear: both;    display: block;    font-size: 12px;    font-weight: normal;    padding-top: 20px;    text-transform: uppercase;}
+.wrap-questions .questions form  {margin-top:30px;}
+.wrap-questions .questions form  {margin-top:30px;padding-bottom:75px;}
+.wrap-questions .questions form .btn_submit_complaint, .wrap-questions .questions form .btn_submit_award_answer_complaint{margin-top:25px;}
+.wrap-questions .questions form .cancelation_block .btn-danger{margin:0;}
+.wrap-questions .questions form .cancelation_block label{padding-left:0; border-top:0; padding-top:10px; font-weight:bold; font-size:14px}
+.wrap-questions .questions form .field-complaint-id{clear:both;}
+.wrap-questions .help-block{height:auto;line-height: 14px;}
+.wrap-questions .questions form .btn{margin-bottom:20px; font-size: 13px; margin-left:0;height:40px; width:auto; display:inline-block; float:left;  font-weight: bold; text-transform:uppercase;}
+.wrap-questions .questions .answer+form .btn+.btn{margin-left:10px;}
+.wrap-questions .questions .answer h4+h4{font-size:13px; font-weight:bold;text-transform:none;}
+.wrap-questions .questions form  .form-group+.form-group+.form-group >div {margin-bottom:0;}
+/*.wrap-questions .questions> form:before{color: #777;    content: "Ваша відповідь";    display: block;    font-size: 18px;    font-weight: bold;    padding-bottom: 10px;    text-transform: uppercase;}*/
+.wrap-questions .questions form  .form-group+.form-group+.form-group .col-md-6{width:100% !important; padding-bottom:10px;padding-left:0;}
+.wrap-questions .questions form  .form-group+.form-group+.form-group.help-block{clear:both;}
+.wrap-questions .questions form  .form-group+.form-group+.form-group .col-md-6 textarea{width:97%;}
+.wrap-questions .questions form  .form-group+.form-group+.form-group >div {padding-left:15px;}
+.wrap-questions .questions form  .form-group+.form-group+.form-group:before{color: #777;    content: "Резолюція"; padding-left:15px;   display: block;    font-size: 14px;    font-weight: bold;    padding-bottom: 10px;    text-transform: uppercase;}
+.wrap-questions .questions form  .form-group+.form-group+.form-group label{border:0; padding-right: 30px;padding-top:0;}
+
+.wrap-questions .questions form  .contract_file_block:before{display:none !important;}
+.wrap-questions .questions form .contract_file_block.form-group  .col-md-6{padding-top:0; padding-bottom: 10px;    padding-left: 0;    width: 100% !important;}
+.wrap-questions .questions form .contract_file_block.form-group+.clearfix{display:none;}
+.wrap-questions .questions form.contract_file_block.form-group >div {padding-left:0;} 
+
+.tender-preview .m_options, .tender-preview .m_info, .tender-preview #add_award_form .info-block {background:#fafafa;padding-left:10px;padding-right: 10px;padding-top:0;margin-bottom:0;}
+.tender-preview.m_create-wrap .info-block label.col-md-3,
+.tender-preview.m_create-wrap .info-block .file_wrap .col-md-3{padding-left:20px;}
+.tender-preview.m_create-wrap .info-block .col-md-6,
+.tender-preview .info-block .cancellations_block .cancel_item  .col-md-6{width:63.3333%;}
+.m_tender-cancel .info-block .col-md-5 {width:33.333%;}
+.m_tender-cancel .info-block .col-md-5 h4{font-size: 16px;    font-weight: bold;     margin-bottom: 0;    padding-left:	 15px; color:#777;   text-transform: uppercase;background:none;}
+.m_tender-cancel .cancel_item .row .col-md-4{width:63.3333%;}
+.m_create-wrap .form-control, .wrap-questions .form-control{padding-left:10px;height:auto; margin-left:0;font-size:13px;}
+.wrap-questions .form-control{width:97.5%;}
+.m_registration-wrap .info-hint-box h1+.more-info-box{margin:30px 0 50px;}
+.registration-form .info-block label{font-size:12px; font-weight:normal;}
+.m_viewlist-wrap .btn{width:165px;font-size:14px; padding: 10px 0;}
+.m_viewlist-wrap .panel .panel-body{color: #777; font-size: 13px;    padding-top: 5px;}
+.m_viewlist-wrap .panel .panel-body h3{margin-top:-5px;}
+.alert{border:none;}
+.alert-warning{margin-left:-15px;border-radius:0;  padding-left: 25px;}
+.alert-success{margin-left:-15px;border-radius:0;  padding-left: 25px;}
+.bs-example .alert{border-left:0;}
+.tender-preview .info-block .row, 
+.tender-preview .info-block  label.col-md-3, 
+.m_table-wrap .info-block .row .col-md-3{min-height: 30px;    padding: 10px 0 10px 10px;font-size: 13px;    line-height: 18px;}
+.m_table-wrap .info-block .row .col-md-3{padding-top:0px; padding-bottom:0;}
+.tender-preview.m_create-wrap .info-block.m_options .row{min-height: 30px;    padding: 10px 0 10px 10px;font-size: 13px;    line-height: 18px;}
+.tender-preview.m_create-wrap .info-block.m_options .row{padding-left:20px;color:#7e7e7e;}
+.tender-preview.m_create-wrap .info-block.m_options .row+h2{border-top: 10px solid #FFF;margin-top:0;}
+.m_create-wrap .m_options .form-group  label{font-size:13px;}
+.tender-preview .info-block .row+.row, .m_table-wrap .info-block .row+.row{padding-top:5px;}
+.tender-preview .info-block h2,
+.tender-preview .info-block h4,
+.m_table-wrap .info-block h4,
+.bids_block h1,
+.tender-preview .info-block .row.buttons #e_sign_block .panel-heading,
+.m_create-wrap .m_options h2, .m_create-wrap .m_info h2{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-weight: normal;text-transform: uppercase;padding: 12px 25px 10px; margin:10px 0 10px -15px;  font-size: 20px;height: auto;    line-height: 20px;}
+.tender-preview .info-block .row.buttons #e_sign_block .panel-heading,
+#sign_block{margin:0;}
+.tender-preview .info-block .row.buttons #e_sign_block .panel-footer{padding:0; border:0;}
+.tender-preview .info-block .row.buttons #e_sign_block .row{margin:10px 0; background:none;}
+.tender-preview .info-block .row.buttons #e_sign_block .row p{margin-bottom:0; padding:5px 0;}
+.tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-2, .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-3{text-align:left; width:33.3333%;}
+ .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-10{width:65%;}
+ .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-7,
+ .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-6{width:33.3333%; text-align:left;}
+  .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-7 #PKeyFileInput{float:right;width:50px;}
+ .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-10 select{width:100%;padding:5px;}
+ .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-1{width:100%; margin-top:20px; text-align:center;}
+ .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-1 button{float:none !important;}
+ .tender-preview .info-block .row.buttons #e_sign_block .row .col-sm-2 input{width:100% !important;}
+.tender-preview .info-block .row.buttons #e_sign_block #keyStatusPanel .panel-heading{text-transform:none; font-size:14px; font-weight:bold;}
+.m_create-wrap .m_options h2, 
+.m_create-wrap .m_info h2,
+.tender-preview #add_award_form h2{margin-left:-10px;background:#8fd785;margin-right: -10px; color:#FFF;border-top: 10px solid #fff;;border-bottom: 10px solid #fff;margin-top: 0;}
+.bids_block h1{background:#aaa; color:#FFF;}
+.bids_block #bid_form .bs-example{margin-left:-10px;}
+.bids_block #bid_form{margin: -10px 0 0 -15px;    padding: 10px 0px 0 25px; background:#fafafa;}
+.bids_block #bid_form h4{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 16px;font-weight:normal; color:#777; margin: 0 15px 0 -15px;  padding-left: 15px;   padding-bottom:20px; padding-top: 20px; background:#eee;}
+.bids_block #bid_form .info-block.bids_document_block .form-group{width:96%; float:left; background:#ccc; font-size:12px; color:#777;padding:5px 0 0; margin-bottom:10px; font-style:italic;}
+.bids_block #bid_form .info-block.bids_document_block .form-group br{display:none;}
+.bids_block #bid_form h4+.form-group+br, .bids_block #bid_form .info-block.bids_document_block br{display:none;}
+.bids_block #bid_form .info-block.bids_document_block .control-label,  .bids_block #bid_form .info-block.bids_document_block .col-md-6{padding-bottom:0;}
+
+.bids_block #bid_form .document_block h4+.form-group{margin-top:0;color:#5cb85c; padding-top:10px; }
+.bids_block #bid_form h4 + .form-group .col-md-6{font-size:13px; padding-bottom:20px;}
+.bids_block #bid_form .row{background:#eee;border:0;width: 100%}
+.bids_block #bid_form .row .panel-body{font-size:13px; color:#777;}
+.bids_block #bid_form .row .panel-body  .form-group{margin-bottom:0;}
+.bids_block #bid_form .row .panel-body .control-label{color: #333;    font-size: 14px;    font-weight: bold;    padding-top: 5px;}
+.bids_block #bid_form .row .panel-body .help-block{font-size: 11px; text-align: center;}
+.bids_block #bid_form .bids_document_block{margin-top:20px;}
+/*.bids_block #bid_form .panel-default .feature:before{content:"Нецінові показники, що відносятся до лоту";background: #eee;   color: #333;    font-size: 14px; font-weight: bold;  padding-top: 5px;    margin: 0 15px 0 -15px;  padding-bottom: 5px;  display:block; padding-left: 15px;    }*/
+.bids_block #bid_form .feature .control-label{width:100%; padding-top:10px; padding-bottom:0 !important;color:#777 !important;}
+.bids_block #bid_form .feature .control-label+.control-label{font-weight:normal; padding-top:0; font-size:12px; padding-bottom:10px;}
+.bids_block #bid_form .bids_document_block .row,
+.bids_block #bid_form .bids_document_block .bid_file_wrap{box-shadow: none;    margin-right: 0;    margin-top: 0;    padding-right: 0;    padding-top: 0;    width: 100%;margin-bottom:0;}
+.bids_block #bid_form .bids_document_block .row.oldfile{font-size:12px; color:#777;margin-top:-10px;}
+.bids_block #bid_form .bids_document_block .row.oldfile a {color:#777;}
+.bids_block #bid_form .bids_document_block .bid_file_wrap .panel-body{padding-top:0; padding-bottom:0;padding-right:0;}
+.bids_block #bid_form .bids_document_block .bid_file_wrap .panel-body label{width:33.3333%; float:left; padding:7px 0; height:35px;clear: both;}
+.bids_block #bid_form .bids_document_block .bid_file_wrap .form-group{background:none; width:100%;padding:0; float:none; font-size:13px; font-style:normal;} 
+.bids_block #bid_form .confidentialityRationale .control-label{font-size:13px !important;}
+.bids_block #bid_form .confidentialityRationale .help-block{clear:both; padding-top:10px;}
+.bids_block #bid_form .bids_document_block .bid_file_wrap .panel-body .form-control{width:66%; float:left;}
+.bids_block #bid_form .bids_document_block .bid_file_wrap .panel-body .btn-group{float:right; margin-right:5px;padding-top:5px;}
+.bids_block #bid_form .bids_document_block .bid_file_wrap .panel-body .btn-group .btn{background: #ccc;    border: 0 none;    color: #777;    float: right;    font-size: 13px;    margin-left: 18px;    padding: 5px 10px;    width: auto;}
+.bids_block #bid_form .bids_document_block .bid_file_wrap .panel-body .btn-group .btn-danger{background:#ff1b4b; color:#FFF;}
+.bids_block #bid_form .field-bid-selfeligible,
+.bids_block #bid_form .field-bid-selfqualified{font-weight:normal; font-size:13px;margin-bottom: 0;}
+.bids_block #bid_form  .btn-success{float: right;    font-size: 14px;    font-weight: bold;    margin-right: 50px;    margin-top: 20px;    text-transform: uppercase;    width: 167px;}
+.bids_block #bid_form  .submit-buttons{background:none; padding:15px;}
+.bids_block #bid_form  .submit-buttons .btn-success{margin-top:0;margin-right:20px; }
+.m_create-wrap .m_info h2+p {display:none}
+.tender-preview .lots_block .lot{padding-top:20px;padding-left: 0;    padding-right: 0;}
+.m_create-wrap .lot .items_block .item .delete_item,
+.m_create-wrap .lots_block .lot .lots_marker .delete_lot,
+.tender-preview.m_create-wrap  .features_block .feature .delete_feature{background: #ff1b4b; display: inline-block; font-size: 13px; font-weight: bold; padding: 10px; position: absolute; right: 45px; text-transform: uppercase;    top: -45px;    width: 166px;}
+.m_create-wrap .lot .items_block .item .delete_item{top:-10px;}
+.tender-preview.m_create-wrap  .features_block .feature .delete_feature{top:10px;}
+.tender-preview .tender-id-box .col-md-3{padding-left:5px;}
+.tender-preview .tender-id-box .col-md-9{padding-left:10px;}
+.tender-preview .info-block .row .col-md-3, .tender-preview .info-block label.col-md-3, .tender-questions.wrap-questions .form-group .col-md-3,.wrap-questions .questions .row .col-md-3{width:33.3333%;}
+.tender-preview+.tender-questions{padding-top:20px;}
+.tender-preview .info-block .row .col-md-6, .tender-preview #plan_create .info-block div.col-md-6, .tender-questions.wrap-questions .form-group .col-md-6,.wrap-questions .questions .row .col-md-6 {width:63.3333%;}
+.wrap-questions .contract_file_block >.col-md-3{display:none;}
+.wrap-questions .contract_file_block >.col-md-6:before{color: #777; content: "Документи ";padding-left:5px; font-size: 14px; font-weight: bold;line-height: 2.5; text-transform:uppercase;}
+.wrap-questions .contract_file_block .file_wrapper .col-md-6.panel-body{padding:0;display:none;}
+.wrap-questions .contract_file_block.form-group .file_wrapper .col-md-6{width:100%;}
+.wrap-questions .contract_file_block.form-group .file_wrapper .col-md-6 .col-md-4{width:90%;}
+.wrap-questions .questions .row{min-height:25px;}
+.m_upload_block_fix .contract_file_block .file_wrapper .file_original_name{margin-bottom: 10px;    margin-left: -15px; width:100%;}
+.tender-preview .info-block .row .col-md-6 br+b{font-size:12px;color:#777;}
+.tender-preview  .col-md-6 + .col-md-3, .tender-questions.wrap-questions .form-group .help-block{width:97.66%;}
+.tender-preview  .col-md-3 .help-block, .tender-questions.wrap-questions .form-group .help-block{text-align: center; font-size: 11px; margin:10px 0;}
+.tender-preview .info-block .row .col-md-9 {width:66.6667%;}
+.tender-preview .info-block .row  .col-md-6 b i{font-style: normal}
+.tender-preview .margin_b{margin-bottom:0;}
+.tender-preview .margin_b h3{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-weight: normal;text-transform: uppercase;font-size:20px;margin-bottom: 0;}
+.tender-preview .info-block .row.color-47 div:first-of-type h3{color: inherit;    font-weight: inherit;}
+.tender-preview .margin_t{margin-top:20px;}
+.tenders-index .list-view .panel-default .row .col-md-3 .container h5{background: #eee;    color: #777;    display: inline-block;    font-size: 10px;    font-weight: normal;    margin-bottom: 0;    margin-top: 5px;    padding: 5px;    text-align: center;    text-transform: uppercase;    width: 100%;}
+.tenders-index .list-view .panel-default.plans-view .row .col-md-3 .container h5+h5{display:none;}
+.tenders-index .list-view .panel-default .row .col-md-3 .container .btn-success{font-size: 12px;   font-weight: bold;   text-transform: uppercase;}
+.tenders-index .list-view .panel-default .row .col-md-3 .container .btn-success+h5{display:none;}
+.tender-preview .margin_t strong{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;text-transform: uppercase;font-size:14px; margin-bottom:5px; display:block;}
+.m_viewlist-wrap h1{margin-top:0; margin-bottom:30px;}
+.m_viewlist-wrap .summary{border-bottom: 1px solid #eee; margin-bottom: 40px; margin-top: -25px; padding-bottom: 15px; text-align:center; color: #777; font-size: 12px;width: 100%; display:block;}
+.m_viewlist-wrap .student-form{margin: 0; display: inline-block; width:100%; height:105px;border-top: 1px solid #eee; padding-top: 10px;}
+.m_viewlist-wrap .student-form .control-label{font-size:12px; color:#777; font-weight:normal;}
+.m_viewlist-wrap .panel{margin-bottom:15px;}
+.m_viewlist-wrap .panel .btn-success{background:#aaa;}
+.m_viewlist-wrap .panel:hover{background:#eee;}
+.m_viewlist-wrap .panel:hover .btn-success{background:#5cb85c;}
+.m_viewlist-wrap .panel h3{font-size:16px;margin:0;}
+.m_viewlist-wrap .btn.pull-right{margin-top:-80px;margin-right: 41px;}
+.m_viewlist-wrap .student-form .btn{padding: 7px;}
+.m_viewlist-wrap .student-form .btn.btn-danger{background: #eee none repeat scroll 0 0;    color: #777;    float: right;    font-size: 12px;    margin: -5px 42px 0 0;    padding: 5px;}
+.tender-preview .info-block .m_viewlist-wrap{padding-top: 30px; text-align: center;}
+.m_registration-wrap .info-hint-box {width:auto;}
+.m_registration-wrap .info-hint-box h1 {padding-left:0;} 
+.m_registration-wrap .register-index  .form-horizontal .control-label{text-align:left;padding-left:40px;max-height: 50px;    overflow: hidden;}
+.m_registration-wrap .register-index .form-control{width:100%;}
+.m_registration-wrap .info-block h4:before{left:-195px;}
+.m_registration-wrap .info-block h4{margin-left:220px;}
+.m_registration-wrap .register-index .help-block{padding-left:0; font-size:11px;}
+
+.m_registration-wrap .register-index .info-block  .field-user-info1 .col-md-offset-3,
+.m_registration-wrap .register-index .info-block  .field-user-info2 .col-md-offset-3,
+.m_registration-wrap .register-index .info-block  .field-user-info3 .col-md-offset-3,
+.m_registration-wrap .register-index .info-block  .field-user-subscribe_status .col-md-offset-3{
+			margin-left: 24.5%;
+			padding: 0;
+			width: 47%;			
+}
+.m_registration-wrap .register-index .info-block  .field-user-info1 .col-md-offset-3{border-top: 1px solid #eee; padding-top: 20px; margin-top:10px}
+
+.m_registration-wrap .register-index .info-block  .field-user-info1,
+.m_registration-wrap .register-index .info-block  .field-user-info2,
+.m_registration-wrap .register-index .info-block  .field-user-info3 ,
+.m_registration-wrap .register-index .info-block  .field-user-subscribe_status{
+			margin-bottom:5px;		
+}
+.m_registration-wrap .register-index .info-block  .field-user-info1 .col-md-offset-3 label,
+.m_registration-wrap .register-index .info-block  .field-user-info2 .col-md-offset-3 label,
+.m_registration-wrap .register-index .info-block  .field-user-info3 .col-md-offset-3 label,
+.m_registration-wrap .register-index .info-block  .field-user-subscribe_status .col-md-offset-3 label{
+			font-weight:normal;	
+			font-size:12px;			
+}
+.m_registration-wrap .register-index button{width:450px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;    font-size: 20px;    font-weight: normal; text-transform:uppercase; margin-top: 30px;}
+.m_create-wrap .file_wrap .row:first-child{text-align:left;}
+.tender-preview .lot:before{content:"Частина предмету закупівлі (лот)";line-height:2.5;color: #777;  font-size: 30px; font-weight: bold;margin-bottom: 0;text-transform: uppercase;padding-left:25px;margin-left:-15px; background:#fafafa;display:block;padding-top:20px;}
+.tender-preview.m_create-wrap .lot:before{content:"Частина предмету закупівлі (лот)";line-height:2.5; color: #777;  font-size: 18px; font-weight: bold;margin-bottom: 0;text-transform: uppercase;padding-left:15px;margin-left:0;padding-top:0;}
+.tender-preview .lot .items_block:before{content:"Склад частини предмету закупівлі (лоту)";display:block; padding-top:0px; color: #777;  font-size: 18px; font-weight: bold;margin-bottom: 0;text-transform: uppercase;padding-left:25px; margin-left:-15px;background:#fafafa;}
+.tender-preview.m_create-wrap .lot .items_block:before{content:"Склад частини предмету закупівлі (лоту)";color: #777;  font-size: 18px; font-weight: bold;margin-bottom: 0;text-transform: uppercase;padding-left:15px;padding-top:0;margin-left:0;}
+.tender-preview .lot .items_block h2{display:none;}
+.tender-preview.m_create-wrap .lot .features_block .feature>.row .col-md-9:before,
+.tender-preview.m_create-wrap .features_block .feature>.row .col-md-9:before{content:"Неціновий критерій лоту";color: #777; line-height: 4; font-size: 16px; font-weight: bold;margin-bottom: 0;text-transform: uppercase;padding-left:5px;}
+.tender-preview.m_create-wrap .features_block .feature>.row .col-md-9:before{content:"Неціновий критерій закупівлі"}
+.tender-preview.m_create-wrap .features_block .feature .enum >.form-group:last-child >.col-md-3{width:96.67%;padding-top:0;}
+.tender-preview.m_create-wrap .features_block .feature .enum .enum-name{text-transform: uppercase; font-weight: bold;font-size: 13px; padding-left: 20px}
+.m_create-wrap .lot .items_block .item  .form-group +.row,
+.m_create-wrap .lot .items_block .item  .additionalClassifications_input .row{display:none;}
+.m_create-wrap .lot .items_block .item  .additionalClassifications_block+.row,
+.tender-preview .info-block .items_block .item h3,
+.tender-preview .info-block .items_block .item .row .col-md-3 strong,
+.m_create-wrap .lot .items_block .item .col-md-9 strong{color: #777;content: "Адреса поставки";font-size: 16px;font-weight: bold;margin-bottom: 20px;padding-left: 20px;padding-top: 10px; text-transform: uppercase;}
+.m_create-wrap .lot .items_block .item .col-md-9 strong{padding-left:5px;margin-bottom: 10px;}
+.m_create-wrap .lot .items_block .item  .additionalClassifications_block+.row{padding-left:15px;}
+.m_create-wrap .col-md-9 strong, .m_create-wrap .col-md-3 strong{color:#777;}
+.tender-preview .info-block .items_block .item h3,
+.tender-preview .info-block .items_block .item .row .col-md-3 strong{font-weight:normal; margin-bottom:10px; padding-left:0;}
+.m_create-wrap .lot .items_block .item,
+.tender-preview .features_block .feature{padding-left:0;padding-bottom:0;}
+.tender-preview .features_block .feature .enum_block{margin-top:0;}
+.tender-preview .features_block .feature .enum_block .enum{margin-bottom:0;}
+.tender-preview .features_block .feature .enum_block .enum .row,
+.tender-preview .document_block .document .row {min-height:20px; padding-bottom:5px;padding-top:10px;}
+.tender-preview .features_block .feature .enum_block .enum .row+.row,
+.tender-preview .document_block .document .row +.row{padding-bottom:0;padding-top:0px; font-size:11px;}
+.tender-preview.m_create-wrap  .features_block .feature,
+.tender-preview.m_create-wrap  .items_block .item{padding: 30px 0 5px;margin-top: 20px;background:#eee;margin-bottom:10px;}
+.tender-preview.m_create-wrap .features_block:before{content:"Сформулюйте перелiк нецiнових (якiсних) критерiїв, що будуть розглядатись i враховуватись вами як Замовником при визначеннi переможця за поточним лотом. Зауважте, що загальна вага нецiнових показникiв не повинна перевищувати 30%"; display: inline-block;  color:#777;  font-size: 13px;    padding-left: 15px;    width: 75%;padding-bottom: 10px;}
+.tender-preview.m_create-wrap  .features_block .feature{margin-top:0;padding-top:10px;padding-bottom:75px;}
+.tender-preview .lots_block .lot_amount_block+h2,
+.tender-preview .lot .lots_marker +.items_block{padding-top:40px; margin-left:-15px; padding-left:15px}
+.tender-preview .lot .lots_marker h2,
+.tender-preview .lot .features_block h2,
+.tender-preview.m_create-wrap .lot .add_item+.lots_marker h2{border:none; background:#fafafa; color: #777;  font-size: 18px; margin-top:0; font-weight: bold;margin-bottom: 0;text-transform: uppercase;padding-bottom: 20px; padding-top: 20px;}
+.tender-preview.m_create-wrap .lot .add_item+.lots_marker h2{padding-bottom:10px;}
+.tender-preview .lots_block .lot_amount_block+h2{padding-left:30px;}
+.document_block{padding:10px 0 10px 10px;}
+.document_block .margin23{margin:0;}
+.document_block .row .document{padding:0;}
+
+.document_block .form-group{border-top:1px solid #ddd; margin:0 15px; padding-top:10px; padding-bottom: 5px;}
+.document_block .form-group .control-label{padding:0; font-size:12px;color: #777;}
+.document_block .form-group .col-md-6{padding-left:12px; font-size:12px; color:#777;}
+
+.tender-preview .document_block{padding:0px 0 10px 15px;margin-left: -15px;}
+.tender-preview.m_create-wrap .document_block{margin-left:0;padding-top:0;}
+.tender-preview .document_block .document{padding-top:0; padding-bottom:0;}
+.tender-preview .document_block .document+.document{padding-top:10px;}
+.tender-preview.m_create-wrap .lot .add_item+.lots_marker{padding-top:75px;}
+
+.tender-preview.m_create-wrap .features_wrapper,
+.tender-preview.m_create-wrap .periods_wrapper{clear:both;}
+.tender-preview.m_create-wrap .features_wrapper .features_rules{display:none;}
+
+#bid_form .uploadfile,
+.tender-preview.m_create-wrap .lot .add_item,
+.wrap-questions .uploadcontract,
+.wrap-questions .questions form .btn.uploadcontract,
+.m_tender-cancel .cancel_item .uploadfile,
+.tender-preview.m_create-wrap .features_block .add_feature,
+.tender-preview.m_create-wrap .document_block+.uploadfile,
+.tender-preview.m_create-wrap .features_block .feature .add_feature_enum,
+.m_create-wrap .lots_block + .add_lot{float: right;    font-size: 13px;    font-weight: bold;    margin-bottom: 25px;    margin-right: 30px;    margin-top: 20px;    text-transform: uppercase;    width: 167px;}
+.m_tender-cancel .cancel_item .uploadfile{margin-top:0; margin-right:0;}
+#bid_form .uploadfile{margin-bottom:0;margin-right: 50px;}
+.m_tender-cancel .cancel_item .uploadfile div{ color:#FFF !important;}
+.m_tender-cancel .cancel_item .document_block .file_wrap .col-md-3{text-align: left; padding-left: 5px}
+.m_tender-cancel .cancel_item .document_block .file_wrap .col-md-3 .file_original_name{padding-left: 0;}
+.m_tender-cancel .cancel_item .document_block .file_wrap .col-md-6{padding-left:0;}
+.m_tender-cancel .cancel_item .document_block .file_wrap .col-md-3.btn-group{width:97%;}
+.wrap-questions .uploadcontract, .wrap-questions .questions form .btn.uploadcontract{margin-right:0px;margin-top:0;margin-bottom:10px;height:auto;}
+.m_create-wrap .lots_block + .add_lot{font-size:18px; clear:both;}
+.tender-preview.m_create-wrap .lot .features_block .add_feature{clear:both; margin-top:0px;}
+.tender-preview.m_create-wrap .lot .features_block .feature .add_feature_enum 
+.tender-preview .info-block.document_block  .row{color:#777; font-size:11px; padding-bottom:0px; min-height:10px;}
+.tender-preview.m_create-wrap .info-block.document_block  .document .row{font-size:13px;}
+.tender-preview.m_create-wrap .info-block.document_block  >.row{padding-left:5px;}
+.tender-preview.m_create-wrap .info-block.document_block .file_wrap .col-md-3{font-size:13px; padding-left:0;}
+.tender-preview.m_create-wrap .info-block.document_block .file_wrap .col-md-3 label{line-height: 20px;max-height: 70px;overflow: hidden;position: absolute;font-weight:bold;}
+.tender-preview.m_create-wrap .info-block.document_block  .row .document .row{min-height:30px; padding-bottom:5px; font-size:13px;}
+.tender-preview .document_block .row .document .col-md-3{padding-left:5px;}
+.tender-preview .document_block .row .document .col-md-6{padding-left:12px;}
+.tender-preview .document_block .col-md-3.control-label{min-height:none; padding:0; margin-left:-10px;}
+.tender-preview .document_block .form-group{margin:0 10px;}
+.tender-preview .document_block .form-group .control-label{margin-left:0;min-height: 0;}
+
+table.qualification{font-size:13px; color:#777;}
+table.prequalification +form>.btn-submitform{display: block;    margin: 0 auto; text-transform:uppercase; font-size:14px; font-weight:bold;}
+table.prequalification +form {padding-bottom:20px;}
+table.prequalification .preq-item{background:#eee;}
+table.prequalification .preq-item h4{margin:0; background:#eee; font-size:18px; color:#777; font-size:15px; padding-left: 40px;padding-top:0;}
+table.prequalification .preq-item .pq-claim{margin: 0 auto 20px;    width: 91%; background:#eee; border:0;font-size:12px; font-weight:normal;}
+table.prequalification .preq-item .pq-claim > thead > tr > th, 
+table.prequalification .preq-item .pq-claim > tbody > tr > td{border:0;}
+table.prequalification .preq-item .pq-claim > tbody > tr+tr>td{border-top:1px solid #ccc;}
+table.prequalification .preq-item .pq-claim > thead > tr > th:first-child,
+table.prequalification .preq-item .pq-claim > tbody > tr > td:first-child{padding-left:0px;}
+table.prequalification .preq-item .pq-claim .pq-clam-item{width:81.75%;}
+table.prequalification .preq-item .pq-claim .pq-clam-item .pq-clam-item-doc{margin-top:10px;margin-bottom:0;}
+table.prequalification .preq-item .pq-claim .pq-clam-item .pq-clam-item-doc+.pq-clam-item-doc{margin-top:0px;}
+
+.table > thead:first-child > tr:first-child > th, 
+table.qualification > thead:first-child > tr:first-child > th,
+table.qualification tr+tr.biddocs>td,
+table.qualification form table.prequalification tbody > tr > td,
+table.qualification tr+tr.qualdocs>td{border:0 !important;padding-left:0;}
+table.qualification form table.prequalification tbody > tr:last-child  > td,
+table.qualification > tbody > tr > td:first-child,
+table.qualification > tbody > tr > td,
+table.qualification > tbody > tr:last-child  > td{padding-left:0;border-left:0 !important; border-right:0 !important; border-bottom:0 !important;}
+table.qualification form table.prequalification .qualificate.makequalify{position:relative;}
+table.qualification form table.prequalification .qualificate.makequalify .uploadfile{position:relative; float:right;top:0;}
+table.qualification > thead:first-child > tr:first-child > th{font-weight:normal;padding-top:15px; padding-bottom:15px;}
+table.qualification > tbody > tr:last-child  > td{padding-bottom:20px;}
+table.prequalification > thead:first-child > tr:first-child > th{border-bottom:1px solid #ccc !important;}
+table.qualification > tbody > tr > td,
+table.qualification form table.prequalification tbody > tr > td {font-weight:bold;padding-bottom: 10px;padding-top:10px;padding-left:0;}
+table.prequalification form table .e_sign_block .container{width:100% !important;}
+table.prequalification form table{margin-bottom:0;}
+table.qualification tr+tr.biddocs>td{padding-top:0px;}
+table.qualification tr, table.qualification td{padding:0; border:0;}
+table.qualification .qualificate .active form-group{}
+.m_table-wrap .qtable{background: #fafafa;    margin-left: -15px;    padding: 0 25px;}
+.m_table-wrap .qtable h3{border-bottom: 1px solid #e7e7e7;    font-weight: bold;    margin: 0;    padding: 20px 0;}
+.m_table-wrap .qtable .qualification .counted_amount{background:none; font-weight:normal; border-top:0;border-left:0; border-right:0;border-bottom:1px dashed; padding:0; font-size:11px;}
+.m_table-wrap .qtable .qualification .counted_amount:before{content:"Приведена ціна:"; padding-right:5px;}
+.m_table-wrap .qtable .qualification .counted_amount:hover{border-bottom:0;}
+.m_table-wrap .qtable .qualification .document_block{margin-left: -20px;    margin-top: 0;    padding: 0px 10px 0;}
+.m_table-wrap .qtable .qualification .document_block table{margin-bottom:0;}
+.m_table-wrap .qtable .qualification .document_block h4{margin:0; padding-left:10px; padding-bottom:5px; color:#777; padding-top:5px; background:#fafafa; text-transform:none; font-size:13px;}
+.m_table-wrap .qtable .qualification .document_block td {border:0;padding:0 0 5px 10px; height:auto; font-weight:normal; font-size:11px;background:#fafafa;}
+.m_table-wrap .qtable .qualification .makequalify{margin:10px -20px -10px -35px; background:#eee; padding: 30px 40px 20px;font-weight:normal;}
+.m_table-wrap .qtable .qualification .makequalify  .choose_prequalification{width:75%; padding-left:10px; font-weight:bold; height:40px;font-size:14px;}
+.m_table-wrap .qtable .qualification .makequalify .uploadfile {margin-right: 0;    padding: 9px;    position: absolute;    right: 0;    top: -40px;    width: 140px;}
+.m_table-wrap .qtable .qualification .makequalify .prequalification_file{background: #eee;    font-weight: bold;    margin-left: -25px;    padding-bottom:0px;    padding-top: 20px;}
+.m_table-wrap .qtable .qualification .makequalify .btn-submitform_award,
+.m_table-wrap .qtable .qualification .makequalify .btn-submitform_qualification,
+.m_table-wrap .qtable .qualification .makequalify .sign_btn_award{float:right; font-size:14px; font-weight:bold; text-transform:uppercase;    margin-top: 55px;}
+.m_table-wrap .qtable .qualification .makequalify .sign_btn_award{display:block; margin:0 auto; float:none;}
+.m_table-wrap .qtable .qualification .makequalify .btn-submitform_qualification{margin-top:10px; padding:10px;}
+.m_table-wrap .qtable .qualification .makequalify .btn-danger {}
+.m_table-wrap .qtable .qualification .e_sign_block .container{width:100% !important;}
+.m_table-wrap .qtable .qualification .makequalify .cause .control-label,
+.m_table-wrap .qtable .qualification .makequalify .cause+.form-group .control-label,
+.m_table-wrap .qtable .qualification .makequalify .field-award-description .control-label{font-size: 14px;    font-weight: bold;    padding-bottom: 5px;}
+.m_table-wrap .qtable .qualification .makequalify .active form>label,
+.m_table-wrap .qtable .qualification .makequalify .unsuccessful form>label{border-top: 1px solid #ccc;    display: inline-block;    font-size: 14px;    margin-top: 10px;    padding-top: 20px;    width: 75%;}
+.m_table-wrap .qtable .qualification .makequalify .active form>label:after,
+.m_table-wrap .qtable .qualification .makequalify .unsuccessful form>label:after{content:"Увага, використання ЕЦП для підтвердження дій в допорогових закупівлях не є обов'язковим та не впливає на публікацію інформації в ЦБД."; font-size:11px; color:#777; display:block;font-weight: normal;}
+.m_table-wrap .qtable .qualification .makequalify .ajax-file-upload-container{font-size:11px; color:red; padding:10px 0; text-align:center;}
+.m_table-wrap .qtable .qualification .makequalify  .form-group{border:0; margin:0; padding:0;}
+.m_table-wrap .qtable .qualification .makequalify  .form-group label{font-size:12px; padding:0; margin:0; font-weight:normal;}
+.m_table-wrap .qtable .qualification .makequalify .active,
+.m_table-wrap .qtable .qualification .makequalify .unsuccessful{position:relative;}
+.m_table-wrap .qtable .qualification .bidclaims >td {border:0; background:#eee; padding:5px 0; text-align:center;}
+.m_table-wrap .qtable .qualification .bidclaims .btn-danger{font-size:12px; font-weight:bold; border:0;}
+.m_table-wrap .qtable .qualification .qualdocs>td{padding:0;}
+.m_table-wrap .qtable .qualification .qualdocs h4{display:none; background:none; text-transform:none; font-size:12px; color: #777;}
+.m_table-wrap .qtable .qualification .qualdocs a{display: block;    font-weight: normal;    padding-left: 10px;    text-decoration: underline;}
+.m_table-wrap .qtable .qualification .qualdocs .qualdoc:before{content:"Документи кваліфікації"; font-size:12px; font-weight: normal; padding-left:10px;}
+.m_table-wrap .qtable .qualification .qualdocs .qualdoc+.qualdoc:before{content:"";}
+.m_table-wrap .qtable .qualification .qualdocs .qualdoc+.qualdoc{margin-top:-18px;}
+.m_table-wrap .qtable .qualification .qualdocs .qualdoc:last-child{margin-bottom:15px;}
+.m_table-wrap .qtable .qualification  .lotcontract  p{font-weight:normal;}
+.m_table-wrap .qtable .qualification  .lotcontract .tender_contract_btn{text-transform:uppercase; font-weight:bold; margin:15px 0;}
+/*.tender-preview.m_table-wrap .row{margin-left:-15px;padding:10px 0 10px 10px;}*/
+.tender-preview.m_table-wrap .row{margin-right:0;}
+.tender-preview.m_table-wrap .row .col-md-3{padding:0 0 0 15px; min-height:15px;}
+.tender-preview.m_table-wrap .row .col-md-9{width:100%;}
+.tender-preview.m_table-wrap .row.m_lead{padding-top:10px;padding-bottom:10px;}
+.tender-preview.m_table-wrap .row.m_lead >*{min-height:auto;}
+.tender-preview.m_table-wrap .row.m_lead .col-md-3 {padding:0 0 0 5px; font-weight:bold;}
+.tender-preview.m_table-wrap .row .col-md-9 .row .col-md-9 {width:66.6667%; }
+.tender-preview.m_table-wrap .row.m_lead .col-md-9 {padding-left:10px;}
+.tender-preview .alert-danger{border-radius: 0;  margin-bottom:10px;  border-top: 10px solid #fff;    margin-left: -15px;    padding-left: 25px;}
+#classificator-modal .modal-dialog, .modal-dialog {width:960px}
+.modal-dialog h2{background: #8fd785; margin:-30px -30px 0 -30px; padding:20px 0;}
+#contract-modal .modal-dialog .modal-body{padding:30px;color: #777;    font-size: 13px;    line-height: 24px;}
+#classificator-modal .modal-dialog h4{background: #8fd785; color: #fff;    margin: -15px -15px 0;    padding: 15px 20px;}
+#classificator-modal .item-name{border:0; font-size:13px;}
+#classificator-modal .item-name.selected{background:#8fd785; color:#000;}
+#classificator-modal .item-name:hover{border:0; background:#eee;}
+.modal-dialog th{padding:10px !important;}
+.modal-dialog td{font-size:13px; color:#777;}
+#contract-modal .modal-dialog .modal_document_block{padding-top:20px;margin-left: -14px;}
+#contract-modal .modal-dialog .modal_document_block+.btn-primary{position:absolute;right: 50px;bottom: 30px;}
+#contract-modal .modal-dialog .modal_document_block .row{margin:0;}
+#contract-modal .modal-dialog .contract_file_block .col-md-4{width:40%; padding-left:5px;}
+#contract-modal .modal-dialog .replace_file{width:90px; float:right; background:#eee;border:0; font-size:12px;padding: 8px 0;    width: 90px;}
+#contract-modal .modal-dialog .download_link{width:90px; float:left; padding:8px 0;text-align:center; background:#eee; min-height:34px;}
+#contract-modal .modal-dialog .download_link a, #contract-modal .modal-dialog .download_link a:hover{color:#777;text-decoration:none;}
+#contract-modal .modal-dialog .uploadcontract{float: right; width: 90px; text-transform: uppercase; font-weight: bold; padding:5px 10px; }
+#contract-modal .modal-dialog .contract_form .contract_buttons_block+.row{margin:0;}
+#contract-modal .modal-dialog .contract_form .contract_buttons_block+.row .contract_info{margin:0; padding-right:0;}
+
+.m_create-wrap #plan_create{padding:0;}
+.m_create-wrap #plan_create .info-block{margin-bottom: 20px;    padding-left: 10px;  padding-bottom:40px;  padding-right: 0px;    padding-top: 0;}
+.m_create-wrap #plan_create .info-block h4{margin-left:-10px; color:#FFF;background:#8fd785;}
+.m_create-wrap #plan_create .info-block .form-group{color: #777;    font-size: 11px;    margin-bottom: 10px;    padding-left: 10px;}
+.m_create-wrap #plan_create .items_block {margin-left: -15px;   padding-right: 0; padding-left: 15px;    padding-top: 0px;}
+.m_create-wrap #plan_create .items_block h2{padding-left:25px;margin-left:-10px;margin-right:0px;background:#8fd785;}
+.m_create-wrap #plan_create .items_block p{font-size:13px; color:#777;margin-bottom: 0;    padding-left: 15px;    padding-top: 10px;}
+.m_create-wrap #plan_create .items_block .item .row .col-md-9 strong{font-size:16px;padding-left:5px; font-weight:bold; text-transform:uppercase;}
+.m_create-wrap #plan_create .info-block .field-budget-notes{clear:both;}
+.m_create-wrap #plan_create .info-block .add_item_plan,
+.m_create-wrap #plan_create .items_block .delete_item,
+.m_create-wrap #plan_create .info-block .add_kekv_plan{display:block;	margin:-10px 30px 15px 0; float:right; padding:10px;font-weight:bold;background:#ff1b4b; font-size:13px; text-transform:uppercase;}
+.m_create-wrap #plan_create .info-block .add_kekv_plan{width:auto; background:#eee; color:#777; font-size:13px; font-weight:normal; text-transform:none;}
+.m_create-wrap #plan_create .info-block .add_item_plan{background:#5cb85c; margin-top:-35px;}
+.m_create-wrap #plan_create .info-block .add_kekv_plan span,
+.m_create-wrap #plan_create .info-block .add_item_plan span{display:none;}
+.m_create-wrap #plan_create  > .col-md-offset-3{width:100%; margin:0;padding:0; text-align: center}
+.m_create-wrap #plan_create > .col-md-offset-3 .btn	{font-size: 14px;    font-weight: bold;    text-transform: uppercase;}
