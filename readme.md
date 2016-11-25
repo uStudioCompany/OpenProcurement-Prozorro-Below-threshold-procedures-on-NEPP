@@ -1,2 +1,2 @@
-БД лежит в migrations
+БД лежит в migrations<br/>
 php - отключить warning, notice
